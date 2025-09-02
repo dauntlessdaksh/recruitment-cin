@@ -6,7 +6,7 @@ class AttendanceRepository {
   Future<int> markAttendance(String studentNo) async {
     try {
       final response = await _dio.post(
-        'https://api.programming-club.tech/api/present/',
+        'https://cin-pc.onrender.com/api/present/',
         data: {'student_no': studentNo},
       );
 
