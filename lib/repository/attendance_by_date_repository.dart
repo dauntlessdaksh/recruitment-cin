@@ -4,7 +4,7 @@ import 'package:pc/models/attendancebydate.dart';
 
 class AttendanceByDateRepository {
   final Dio _dio = Dio();
-  final String apiUrl = 'https://api.programming-club.tech/api/attendance/';
+  final String apiUrl = 'https://cin-pc.onrender.com/api/attendance/';
 
   Future<List<AttendanceByDate>> fetchAttendanceByDate(String date) async {
     try {
