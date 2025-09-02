@@ -15,7 +15,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController _studentController = TextEditingController();
-  final ImagePicker _picker = ImagePicker(); // ✅ For QR Code
+  final ImagePicker _picker = ImagePicker();
 
   @override
   Widget build(BuildContext context) {
@@ -152,7 +152,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
 
-            // ✅ BlocListener for QR Upload API
+
           ],
         ),
       ),
